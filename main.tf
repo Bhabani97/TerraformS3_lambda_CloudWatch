@@ -27,10 +27,10 @@ resource "aws_iam_role_policy" "test_policy" {
   "Version": "2012-10-17",
   "Statement": [
     {
-      "Sid": "Stmt1634882425628",
+     
       "Action": "logs:*",
       "Effect": "Allow",
-      "Resource": "*"
+    
     }
 
   ]
@@ -38,11 +38,11 @@ resource "aws_iam_role_policy" "test_policy" {
 
   "Version": "2012-10-17",
   "Statement": [
-    {
-      "Sid": "Stmt1634901730333",
+    
+   {
       "Action": "*",
       "Effect": "Allow",
-      "Resource": "*"
+     
     }
   ]
 }
